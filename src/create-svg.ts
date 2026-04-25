@@ -109,18 +109,6 @@ export const createSvg = (
             isForcedAnimation,
         );
 
-        // pie chart
-        pie.createPieLanguage(
-            svg,
-            userInfo,
-            40,
-            height - pieHeight - 70,
-            pieWidth,
-            pieHeight,
-            settings,
-            isForcedAnimation,
-        );
-
         const group = svg.append('g');
 
         const positionXContrib = (width * 3) / 10;
